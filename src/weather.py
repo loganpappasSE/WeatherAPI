@@ -14,6 +14,9 @@ def load(api,city,url):
     
 def get_weather(which,api,url):
             data = load(api,which,url)
-            print(f" For {which} the temp is {data['main']['temp']}")
+            try:
+                   print(f" For {which} the temp is {data['main']['temp']}")
+            except:
+                    print("thats not a city lil bro")
    
             
