@@ -13,7 +13,7 @@ def load(api,city,url):
     return response.json()
     
 def get_weather(which,api,url):
-            try: print()
-            except: print()
+            data = load(api,which,url)
+            print(f" For {which} the temp is {data['main']['temp']}")
    
             
