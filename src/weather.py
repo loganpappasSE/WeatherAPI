@@ -19,5 +19,9 @@ def get_weather(which,api,url):
             except:
                     print("thats not a city lil bro")
                     print("oh no")
+                    print("well see")
+                    print("well see")
+                    print("well see")
+
    
             
