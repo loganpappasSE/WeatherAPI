@@ -17,6 +17,10 @@ def get_weather(which,api,url):
             try:
                    print(f" For {which} the temp is {data['main']['temp']}")
             except:
-                    print("thats not a city lil brsdfo")
+                    print("thats not a city lil bro")
+                    print("well see")
+                    print("well see")
+                    print("well see")
+
    
             
