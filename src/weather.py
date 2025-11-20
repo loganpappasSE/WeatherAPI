@@ -21,7 +21,7 @@ def get_weather(which,api,url):
                     print("oh no")
                     print("well see")
                     print("well see")
-                    print("well see")
+                    print("well seesdfsdf")
 
    
             
